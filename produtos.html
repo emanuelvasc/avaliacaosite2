@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produtos - SportPro</title>
+  <link rel="stylesheet" href="styles/produtos.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-flex">
+      <a class="brand" href="index.html">SportPro</a>
+      <nav class="main-nav">
+        <a href="produtos.html">Produtos</a>
+        <a href="index.html#sobre">Sobre</a>
+        <a href="index.html#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="produtos-container">
+    <h1>Nossos Produtos</h1>
+    <div class="produtos-grid">
+      
+      <div class="produto-card">
+        <img src="https://selia-361.f1cdn.com.br/view/540/540/false/true/2625.jpg?MjYyNS0yMDI1LTA3LTIyIDE4OjUwOjU3" alt="Tênis de Corrida">
+        <div class="produto-info">
+          <h3>Tênis de Corrida Pro</h3>
+          <p>Leveza, amortecimento e desempenho.</p>
+          <div class="produto-preco">R$ 299,90</div>
+          <button class="btn-comprar">Comprar</button>
+        </div>
+      </div>
+
+      <div class="produto-card">
+        <img src="https://cdn.awsli.com.br/2500x2500/1826/1826544/produto/211250140/5-ouyhun.jpg" alt="Camiseta Dry Fit">
+        <div class="produto-info">
+          <h3>Camiseta Dry Fit</h3>
+          <p>Ideal para treinos e corridas.</p>
+          <div class="produto-preco">R$ 89,90</div>
+          <button class="btn-comprar">Comprar</button>
+        </div>
+      </div>
+
+      <div class="produto-card">
+        <img src="https://static.allianzparqueshop.com.br/produtos/bolsa-academia-esportiva-mala-viagem-mochila-transversal-fitness-treino-feminina-masculina-unissex/06/5FZ-0002-006/5FZ-0002-006_zoom1.jpg?ts=1721147088&ims=544x" alt="Mochila Esportiva">
+        <div class="produto-info">
+          <h3>Mochila Esportiva</h3>
+          <p>Espaço, resistência e conforto.</p>
+          <div class="produto-preco">R$ 149,90</div>
+          <button class="btn-comprar">Comprar</button>
+        </div>
+      </div>
+
+      <div class="produto-card">
+        <img src="https://underarmourbr.vtexassets.com/arquivos/ids/247584/Luva-de-Treino-Masculina-Under-Armour-Weightlifting-Glove.jpg?v=637886631543570000" alt="Luva de Academia">
+        <div class="produto-info">
+          <h3>Luva de Academia</h3>
+          <p>Mais segurança e pegada firme.</p>
+          <div class="produto-preco">R$ 59,90</div>
+          <button class="btn-comprar">Comprar</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a class="brand" href="#">SportPro</a>
+      <p>Equipamentos e roupas esportivas — entrega para todo o Brasil.</p>
+     
+      </div>
+      <div class="legal">© <span id="ano"></span> SportPro. Todos os direitos reservados.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
